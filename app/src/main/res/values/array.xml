@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quick_acces_list">
+        <item>Custom</item>
+        <item>Current</item>
+        <item>Favorite</item>
+        <item>Test</item>
+    </string-array>
+</resources>
