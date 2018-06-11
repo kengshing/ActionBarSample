@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:title="@string/settings_number_label"
+        android:key="@string/settings_number_key"
+        android:defaultValue="@string/settings_number_default"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"/>
+
+    <ListPreference
+        android:title="@string/settings_list_label"
+        android:key="@string/settings_list_key"
+        android:entries="@array/settings_list_labels"
+        android:entryValues="@array/settings_list_values"
+        android:defaultValue="@string/settings_list_1_value"/>
+
+</PreferenceScreen>

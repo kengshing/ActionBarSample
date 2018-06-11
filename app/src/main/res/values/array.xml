@@ -6,4 +6,14 @@
         <item>Favorite</item>
         <item>Test</item>
     </string-array>
+
+    <string-array name="settings_list_labels">
+        <item>@string/settings_list_1_label</item>
+        <item>@string/settings_list_2_label</item>
+    </string-array>
+
+    <string-array name="settings_list_values">
+        <item>@string/settings_list_1_value</item>
+        <item>@string/settings_list_2_value</item>
+    </string-array>
 </resources>

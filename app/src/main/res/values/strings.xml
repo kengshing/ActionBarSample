@@ -1,6 +1,23 @@
 <resources>
     <string name="app_name">Action Bar Sample</string>
     <string name="action_favorite">Favorite</string>
-    <string name="action_setting">Setting</string>
-    <string name="action_qa">Q-Access</string>
+    <string name="action_favorite_1">Favorite 1</string>
+    <string name="action_favorite_2">Favorite 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_quick_access">Q-Access</string>
+
+    <!-- String for settingsActivity-->
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_number_label">Settings Number</string>
+    <string name="settings_number_key" translatable="false">settings_number</string>
+    <string name="settings_number_default" translatable="false">10</string>
+
+    <string name="settings_list_label">Settings List</string>
+    <string name="settings_list_key" translatable="false">settings_list</string>
+    <string name="settings_list_default" translatable="false">@string/settings_list_1_value</string>
+    <string name="settings_list_1_label">No. 1</string>
+    <string name="settings_list_1_value" translatable="false">No. 1</string>
+    <string name="settings_list_2_label">No. 2</string>
+    <string name="settings_list_2_value" translatable="false">No. 2</string>
 </resources>

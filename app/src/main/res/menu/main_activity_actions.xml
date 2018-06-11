@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/action_qa"
-        android:title="@string/action_qa"
+        android:title="@string/action_quick_access"
         app:showAsAction="ifRoom"
         app:actionViewClass="android.support.v7.widget.Spinner" />
 
@@ -16,20 +16,18 @@
         app:showAsAction="ifRoom">
         <menu>
             <item
-                android:id="@+id/favorate1"
-                android:title="Favorite 1"/>
+                android:id="@+id/action_favorite_1"
+                android:title="@string/action_favorite_1"/>
             <item
-                android:id="@+id/favorite2"
-                android:title="Favorite 2"/>
-
-
+                android:id="@+id/action_favorite_2"
+                android:title="@string/action_favorite_2"/>
         </menu>
     </item>
 
     <item
         android:id="@+id/action_settings"
         android:icon="@drawable/ic_tune_black_24dp"
-        android:title="@string/action_setting"
+        android:title="@string/action_settings"
         app:showAsAction="ifRoom"/>
 
 </menu>
