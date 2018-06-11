@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(mainToolbar);
 
         refreshScreen();
+
     }
 
     @Override
@@ -39,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_favorite_1:
-                Toast.makeText(this, "Favorite 1 selected", Toast.LENGTH_SHORT).show();
+                refreshFavoriteImage(R.drawable.ic_directions_walk_880000_60dp);
                 return true;
 
             case R.id.action_favorite_2:
-                Toast.makeText(this, "Favorite 2 selected", Toast.LENGTH_SHORT).show();
+                refreshFavoriteImage(R.drawable.ic_directions_run_880000_60dp);
                 return true;
 
             case R.id.action_settings:
@@ -70,5 +72,10 @@ public class MainActivity extends AppCompatActivity {
                 getString(R.string.settings_list_key),
                 getString(R.string.settings_list_default));
         txtListView.setText(settingList);
+    }
+
+    private void refreshFavoriteImage (int resourceId){
+        ImageView imgFavoriteView = findViewById(R.id.img_favorite);
+        imgFavoriteView.setImageResource(resourceId);
     }
 }

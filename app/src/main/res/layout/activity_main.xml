@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="Settings Result"
+            android:text="@string/settings_result"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
         <TextView
             android:layout_width="wrap_content"
@@ -34,14 +34,29 @@
             android:paddingStart="16dp"
             android:paddingBottom="16dp"
             android:id="@+id/txt_number"
-            android:text="number"/>
+            android:text="@string/settings_number_label"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="16dp"
             android:paddingBottom="16dp"
             android:id="@+id/txt_list"
-            android:text="List"/>
+            android:text="@string/settings_list_label"/>
+        <TextView
+            android:id="@+id/favorite_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/favorite_result"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:id="@+id/img_favorite"
+            tools:src="@drawable/ic_directions_walk_880000_60dp"/>
+
+
 
     </LinearLayout>
 
