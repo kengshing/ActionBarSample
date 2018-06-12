@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_qa"
         android:title="@string/action_quick_access"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         app:actionViewClass="android.widget.Spinner" />
 
 

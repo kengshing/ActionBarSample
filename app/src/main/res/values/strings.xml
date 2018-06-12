@@ -24,4 +24,7 @@
     <!-- String for subtitle in mainActivity-->
     <string name="favorite_result">Favorite Result</string>
     <string name="settings_result">Settings Result</string>
+    <string name="quick_access_result">Quick Access Result</string>
+    <string name="quick_access_initial_value">Quick Access</string>
+    <string name="quick_access_not_selected">Quick Access Not Selected</string>
 </resources>
