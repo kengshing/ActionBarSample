@@ -6,9 +6,12 @@ import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_activity_actions, menu);
+        MenuItem item = menu.findItem(R.id.action_qa);
+        Spinner qASpinner = (Spinner) item.getActionView();
+        ArrayAdapter<CharSequence> qAAdaptor = ArrayAdapter.createFromResource(this, R.array.quick_acces_list, R.layout.spinner_text_layout);
+        qASpinner.setAdapter(qAAdaptor);
+        //return true;
 
         return super.onCreateOptionsMenu(menu);
     }
